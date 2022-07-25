@@ -32,6 +32,6 @@ Twitter = "https://twitter.com/example"
 Youtube = "https://www.youtube.com/example"
 ```
 
-Example on PyPI:
+[Example on PyPI](https://pypi.org/project/links-demo/)
 
-![](./meta/screen.png)
+![](https://github.com/patrick91/links-demo/raw/main/meta/screen.png)
