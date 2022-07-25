@@ -1,0 +1,38 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+
+[project]
+authors = [{name = "Patrick Arminio", email = "patrick.arminio@gmail.com"}]
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+license = {file = "LICENSE"}
+name = "links-demo"
+readme = "README.md"
+
+[project.urls]
+Appveyor = "https://ci.appveyor.com/project/example"
+Bitbucket = "https://bitbucket.org/example"
+Changelog = "https://example.com/"
+CircleCI = "https://circleci.com/example"
+Codecov = "https://codecov.io/example"
+Coveralls = "https://coveralls.io/example"
+Discord = "https://discord.gg/example"
+Documentation = "https://example.com/"
+Download = "https://example.com/"
+Gitlab = "https://gitlab.com/example"
+Gitter = "https://gitter.im/example"
+Google = "https://google.com/example"
+Homepage = "https://example.com/"
+Issues = "https://example.com/"
+Pypi = "https://pypi.org/project/links-demo"
+Python = "https://www.python.org/example"
+Reddit = "https://www.reddit.com/r/example"
+Slack = "https://something.slack.com/example"
+Source = "https://github.com/patrick91/links-demo"
+Sponsor = "https://example.com/"
+Twitter = "https://twitter.com/example"
+Youtube = "https://www.youtube.com/example"
+
+[tool.flit.module]
+name = "links_demo"
